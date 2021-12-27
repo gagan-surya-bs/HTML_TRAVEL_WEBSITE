@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div >
+        <!-- for contact -->
+        <section style="background-color: rgb(218, 199, 127);height: 700px; width: 79.6%;float: right;">
+            <form action="">
+                <div >
+                    <header style="float: inline-centre;">
+                        <h1>Contact</h1>
+                    </header>
+                 </div>
+                <p>
+                    My name is kiran HP,from malavalli,mandya,karnataka.
+                </p>
+                <input type="text" placeholder="Name" 
+                     style="height: 20px;"
+                    required
+                >
+                <input type="email" placeholder="Email"
+                    style="height: 20px;"
+                    required
+                >
+                <br>
+                <br>
+                <textarea name="Message" id="" cols="44" rows="10"  >Message</textarea>
+                <br>
+                <br>
+                <button style="height: 20px;border: radius 20px;">Send Message</button>
+            </form>
+            
+        </section>
+        <!-- aside bar -->
+        <section  style="background-color: black; width: 20.4%;height: 700px; float: left;">
+            <!-- img and name -->
+            <div>
+                <img src="./DSC_4306.JPG"
+                height="50"
+                width="100"
+                style="border-radius: 50%;"
+                
+                >
+                <header style="float: right;">
+                    <h4 style="color: cornsilk;">Jane Doe</h4>
+                    <h6 style="color: cornsilk;">Hyperspace Engineer</h6>
+                </header>
+            </div>
+            
+            <!-- intro -->
+            <div>
+                 <button style="width: 214px; height: 30px;  background-color: black; color: cornsilk;">
+                    <i class="fas fa-home"></i>
+                     intro
+                </button>
+            </div>
+            <!-- Portfolio -->
+            <div>
+                <button style="width:214px ;height: 30px;  background-color: black; color: cornsilk;">
+                    <i class="fas fa-th"></i>
+                    Portfolio
+                </button>
+            </div>
+            <!-- About Me -->
+            <div>
+                <button style="width: 214px; height: 30px;  background-color: black; color: cornsilk;">
+                    <i class="fas fa-user"></i>
+                    About Me
+                </button>
+            </div>
+            <!-- Contact -->
+            <div>
+                <button style="width: 214px; height: 30px; background-color: black; color: cornsilk;">
+                    <i class="fas fa-envelope"></i>
+                    Contact
+                </button>
+            </div>
+    
+        </section>
+        
+        
+    </div>
+</body>
+</html>

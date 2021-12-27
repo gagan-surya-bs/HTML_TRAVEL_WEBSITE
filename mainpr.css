@@ -1,0 +1,26 @@
+#portout{
+    width: 80%; 
+    float: right;
+    background-color:whitesmoke;
+}
+
+
+div{
+     width:100%;
+}
+
+#headingport{
+    font-family: cursive;  
+    font-size:large;
+    color:black; 
+    background-color: whitesmoke; 
+    text-align: center;
+}
+#portpara{
+    text-align:center;color:black;
+}
+
+.gall{
+    width=400px;
+    height=266px;
+}

@@ -1,0 +1,138 @@
+/* intro part */
+#intro{
+   float: right;
+   background-color:rgb(234, 239, 243) ;
+   width: 79.6%;
+   height: 700px;
+   color: black;
+   background-image: url(./WhatsApp\ Image\ 2021-09-30\ at\ 10.40.02\ AM.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+#content{
+   padding-top: 90px;
+   text-align: center;
+}
+#magna{
+   width: 200px; 
+   height: 50px;
+   margin-top: 20px;
+   margin-left: 40%;
+   border-radius: 10px;
+   background-color: black;
+   border-style: none;
+   color: cornsilk;
+   
+}
+
+/* portfolio */
+#outer{
+   background-color: rgb(234, 239, 243);
+   float: right;
+   width: 79.6%;
+   height: 820px;
+}
+#heading{
+   text-align: center;
+}
+#pt{
+   text-align: center;
+   text-justify: auto;
+   color: black;
+}
+#table{
+   width: 50%;
+}
+#img{
+   height: 250px;
+   width: 255px;
+}
+
+
+/* about us */
+
+#right{
+   width:79.6%;
+   height: 700px ;
+   float: right; 
+   background-color: rgb(234, 239, 243);
+   /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
+}
+#content{
+   font-size:x-large;
+   padding-left: 5%;
+   padding-right: 5%;
+   text-justify: auto;
+}
+
+ /* for contact */
+ .contact{
+    background-color:rgb(234, 239, 243);
+    height: 700px;
+    width: 79.6%;
+    float: right;
+    text-align: center;
+    padding-top: 10px;
+
+ }
+
+ /* #inputfildes{
+   height: 25px;
+   width: 20%;
+ } */
+
+
+ /* send  message button */
+ .message{
+   width: 200px; 
+   height: 50px;
+   margin-top: 20px;
+   border-radius: 10px;
+   background-color: black;
+   border-style: none;
+   color: cornsilk;
+
+ }
+
+
+ /* aside bar */
+ 
+ .aside{
+   background-color: black;
+    width: 20.4%;
+    height: 700px;
+   float: left;
+   position: fixed;
+ }
+ 
+ .image{
+    height: 50px ;
+    width: 50px;
+    border-radius: 50%;
+
+ }
+ /* buttons */
+   #button{
+      width: 273px; 
+      height: 38px;
+      background-color: black;
+      color: cornsilk;
+      
+ }
+ #button:hover{
+    background-color: aliceblue;
+    color: black;
+
+ }
+ /* header */
+ /* style="color: cornsilk;" */
+ .header{
+   color: cornsilk
+
+ }
+ #footer{
+   color: darkgray;
+   padding-top: 350px;
+   padding-left: 60px;
+}

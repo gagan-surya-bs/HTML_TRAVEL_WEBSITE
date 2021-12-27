@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#outer{
+    width: 100%;
+}
+#intro{
+    height: 750px; 
+    width: 80%; 
+    font-family: cursive;
+    position: relative;
+    text-align: center;
+    background-color:  rgb(234, 239, 243);
+        float: right;
+         display: inline; 
+         align-items: center;
+         padding-top: 148px;
+         background-image: url(./task.jpg);
+         
+         height: 600px;
+          
+
+}
+#introbtn{
+    height: 48px; 
+    width: 160px; 
+    background-color: rgb(0, 0, 0); 
+    color: wheat; 
+    border-radius: 5px;
+     margin: 10px;
+      position: relative; 
+      
+      cursor: pointer;
+}
+#introbtn:hover{
+      background-color:cyan;
+      color: black;
+}
+
+
+
+
+/* right side whole content */
+#right{
+    width:80%;
+    height: 650px ;
+    float: right; 
+    background-color: rgb(234, 239, 243);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+#content{
+    font-size:large;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-justify: auto;
+    font-family: cursive;
+}
+/* left side static */
+#leftbar{
+    width: 20%;
+    height: 750px;
+    padding-top: 0px;
+    background-color: rgb(11, 17, 1);
+    position:fixed;
+    padding-left: -4px;
+    
+}
+/* header image */
+#imgicon {
+    padding: 30px;
+    border-radius: 50%;
+}
+/* header */
+#header{
+    float: right; 
+    padding-right: 10px; 
+    text-align:right;
+    margin-top: 15px;
+}
+/* heading name */
+#heading1{
+    color: aqua; 
+    float: right;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+/* heading content */
+#hyper{
+    padding-left: 30px; 
+    color: darkgray;
+}
+#leftsb{
+    color: rgb(10, 25, 53);
+    padding-right: 80%;
+    padding-top: 20%;
+}
+/* button properties */
+button[class="bt1"]{
+    width: 300px;
+    background-color: rgb(11, 17, 1);
+    color: darkgray;
+    height: 50px;
+    font-style: oblique;
+    font-family: cursive;
+    
+}
+/* footer properties */
+#footer{
+    color: darkgray;
+    padding-top: 150px;
+    padding-left: 40px;
+    margin-top: 180px;
+}
+#footi:hover{
+    outline-color: chartreuse;
+    color: cornsilk;
+    
+}
+#fab:hover{
+   color: cyan;
+}
+
+/* contact */
+#contactcontent{
+    background-color: rgb(234, 239, 243);
+    height: 700px;
+     width: 80%;
+     float: right;
+     text-align: center;
+}
+#contacthead{
+    float: inline-centre;
+    padding-top: 0px;
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin: auto;
+}
+:target{
+    background-color: rgb(234, 239, 243);
+}
+body{
+    background:repeat:no-repeat;
+}
+button:hover{
+    transition: width 2s;
+    width: 310px;
+    color: rgb(0, 0, 1);
+    background-color: rgb(207, 243, 150);
+}
+/* portfolio */
+#portout{
+    width: 80%; 
+    float: right;
+    background-color:rgb(234, 239, 243);
+    text-align: center;
+    text-justify: auto;
+    font-family: cursive;
+}
+
+
+
+
+#headingport{
+    font-family: cursive;  
+    
+    color:black; 
+    background-color: rgb(234, 239, 243); 
+    text-align: center;
+}
+#portpara{
+    text-align:center;color:black;
+}
+
+.gall{
+    width=400px;
+    height=266px;
+   padding-left: 100px;
+}
